@@ -1,0 +1,140 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
+    * {
+        box-sizing: border-box;
+    }
+    
+    html, body {
+        height: 100%;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    h1, h2, h3, h4, h5 {
+        font-size: 18px;
+        margin-bottom: 15px;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    p {
+        line-height: 1.4;
+    }
+    header{
+        margin: 0 2% 20px;
+    }
+    
+    nav{
+        width: 800 px;
+        margin-right: 10%;
+        text-decoration: none;
+        padding-top:2%;
+        padding-bottom: 1%;
+        padding-left: 3%;
+        display:flex;
+        justify-content: space-around;
+        align-items: baseline;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+    }
+    .top-image {
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    .container {
+        width: 800px;
+        margin: 0 auto;
+    }
+    .about-page{
+        width: 800px;
+        margin: 0 auto;
+        margin-top:2%;
+        margin-bottom: 2%;
+        border-bottom: 1px dashed black;
+        padding-bottom: 2%;
+    }
+    .about-page div{
+        margin-left: 2.5%;
+    }
+    .main-content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+         
+    }
+    .main-content .box{
+        width: 48%;
+        padding: 0 1%;
+        margin: 1%;
+        padding-bottom: 20px; 
+        border-bottom: 1px dashed black;
+    }
+    button{
+        margin-top:3%;
+        background-color: white;
+        color: black;
+        padding: 2% 5%;
+        border-radius:10px
+    }
+    .bottom{
+        width: 800px;
+        margin: 3% auto;
+        
+    }
+    
+    footer {
+        width: 800px;
+        margin: 0 auto;
+        background: black;
+    }
+    
+    footer nav {
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 2%;
+        font-size: 14px;
+    }
+    
+    footer nav a {
+        color: white;
+        text-decoration: none;
+    }
